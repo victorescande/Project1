@@ -29,6 +29,7 @@ while True:
         elif attempt == number:
             print(bcolors.GREEN + "Rätt!! Du hittade det hemliga talet", number, "på", tot_guess, "försök")
             break
+        print("du har",7 - tot_guess, "gissningar kvar")
 
 
         if tot_guess >=7:
